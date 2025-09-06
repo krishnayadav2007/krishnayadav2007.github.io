@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Krishna Yadav | Graphic Design Portfolio</title>
+
+  <!-- Google Fonts + Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+  <style>
+    * {box-sizing: border-box; margin: 0; padding: 0;}
+    body {
+      font-family: 'Oswald', sans-serif;
+      background-color: #f0f2f5;
+      color: #333;
+      line-height: 1.6;
+    }
+    a {text-decoration: none;}
+
+    /* ---- Personal Branding ---- */
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: #faf9f6;
+      border-bottom: 3px solid #9CAF88;
+    }
+    .hero img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+    }
+    .hero h1 {
+      font-size: 2.2rem;
+      margin-top: 20px;
+      color: #9CAF88;
+    }
+    .hero h3 {
+      font-size: 1.1rem;
+      color: #606c38;
+      font-weight: 400;
+    }
+    .social-links {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+    .social-links a {
+      background: #9CAF88;
+      color: #fff;
+      padding: 12px;
+      border-radius: 50%;
+      transition: 0.3s;
+    }
+    .social-links a:hover {
+      background: #D8A7A7;
+    }
+
+    /* ---- About Me ---- */
+    .about {
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+    }
+    .about h2 {
+      text-align: center;
+      color: #9CAF88;
+      margin-bottom: 20px;
+    }
+    .about p {
+      text-align: center;
+      font-size: 1rem;
+      margin-bottom: 20px;
+    }
+    .skills {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+    .skills span {
+      background: #9CAF88;
+      color: #fff;
+      padding: 8px 15px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+    }
+    .resume {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .resume a {
+      background: #D8A7A7;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 25px;
+      font-size: 0.95rem;
+      transition: 0.3s;
+    }
+    .resume a:hover {
+      background: #9CAF88;
+    }
+
+    /* ---- Work Showcase ---- */
+    .work {
+      max-width: 1100px;
+      margin: 60px auto;
+      padding: 20px;
+    }
+    .work h2 {
+      text-align: center;
+      color: #9CAF88;
+      margin-bottom: 30px;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+    .project-card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+      width: 300px;
+      height: 300px;
+      overflow: hidden;
+    }
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+    .project-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      border: 3px solid #9CAF88;
+    }
+    .project-card h4 {
+      margin-top: 12px;
+      color: #D8A7A7;
+      font-weight: 500;
+    }
+    .project-title{
+        margin: 10px 0;
+        font-size: 20px;
+        color: #444;
+        font-weight: 500;
+
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Personal Branding -->
+  <section class="hero">
+    <img src="E:/me.jpeg" alt="Krishna Yadav">
+    <h1>Krishna Yadav</h1>
+    <h3>Graphic Designer | UI/UX Enthusiast</h3>
+    <div class="social-links">
+      <a href="https://wa.me/8955998778"><i class="fa fa-whatsapp"></i></a>
+      <a href="https://www.instagram.com/krishnayadav_.1"><i class="fa fa-instagram"></i></a>
+      <a href="mailto:krishna29227@gmail.com"><i class="fa fa-envelope"></i></a>
+    </div>
+  </section>
+
+  <!-- About Me -->
+  <section class="about">
+    <h2>About Me</h2>
+    <p>I am a passionate graphic design student exploring the intersection of creativity and technology. With expertise in Adobe Suite, Figma, and web design, I aim to create designs that are both functional and visually compelling.</p>
+    <div class="skills">
+      <span>Photoshop</span>
+      <span>Illustrator</span>
+      <span>Figma</span>
+      <span>UI/UX</span>
+      <span>Branding</span>
+      <span>Web Design</span>
+    </div>
+    <div class="resume">
+      <a href="resume.pdf" target="_blank">Download Resume</a>
+    </div>
+  </section>
+
+  <!-- Work Showcase -->
+  <section class="work">
+    <h2>My Work</h2>
+    <div class="projects">
+      <div class="project-card">
+        <a href="https://www.figma.com/design/4wCyOeKeJ6HqTGPlLlWj1R/Untitled?node-id=0-1&t=cuhZuoEyw9Ibxg1r-1"><img src="C:\Users\krish\Downloads\Instagram post - 2 (1).png" alt="Times of India Layout"></a>
+        <p class="project-title">Cartier Design Layout</p>
+      </div>
+      <div class="project-card">
+        <a href="https://www.figma.com/design/I9f3Ehntgjt75ORYzjqS3L/Untitled?node-id=16-2&t=cuhZuoEyw9Ibxg1r-1"><img src="C:\Users\krish\Downloads\never.jpg" alt="Personal Webpage"></a>
+        <p class="project-title">3D Typography & Illustration</p>
+      </div>
+      <div class="project-card">
+        <a href="https://www.figma.com/design/9EJgo0nDFPqq1I71uHNRFX/Untitled?node-id=0-1&t=cuhZuoEyw9Ibxg1r-1"><img src="C:\Users\krish\Downloads\Group 3 (8).png" alt="Image Gallery"></a>
+        <p class="project-title">UI/UX Design For Nike Website</p>
+      </div>
+      <div class="project-card">
+        <a href="https://www.figma.com/design/FP08hTG2HncZKk0JUzA1r7/Untitled?t=cuhZuoEyw9Ibxg1r-1"><img src="C:\Users\krish\Downloads\mockup.png" alt="Typography"></a>
+        <p class="project-title">App UI</p>
+      </div>
+      <div class="project-card">
+        <a href="https://www.figma.com/design/9EJgo0nDFPqq1I71uHNRFX/Untitled?node-id=11-3&t=cuhZuoEyw9Ibxg1r-1"><img src="C:\Users\krish\Downloads\Group 1 (20).png" alt="Form Design"></a>
+        <p class="project-title">Air Jordan Poster</p>
+      </div>
+      <div class="project-card">
+        <a href="https://www.figma.com/design/rPeYpPQI47wOdaPhnWlHa2/Untitled?node-id=17-2&t=cuhZuoEyw9Ibxg1r-1"><img src="C:\Users\krish\Downloads\Group 1 (10).png" alt="DOM Interaction"></a>
+        <p class="project-title">The Equilibrium</p>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
